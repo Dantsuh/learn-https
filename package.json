@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/Dantsuh/learn-https#readme",
   "devDependencies": {
+    "@types/express": "^5.0.6",
     "@types/node": "^26.6.2",
     "typescript": "^7.0.2"
   },
@@ -23,5 +24,8 @@
     "build": "npx tsc",
     "start": "node dist/index.js",
     "dev": "npx tsc && node dist/index.js"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
   }
 }
