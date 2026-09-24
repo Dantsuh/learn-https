@@ -1,0 +1,27 @@
+{
+  "name": "learn-https",
+  "version": "1.0.0",
+  "description": "THis is a bootdev learning project.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dantsuh/learn-https.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dantsuh/learn-https/issues"
+  },
+  "homepage": "https://github.com/Dantsuh/learn-https#readme",
+  "devDependencies": {
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js"
+  }
+}
