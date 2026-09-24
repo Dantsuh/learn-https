@@ -1,4 +1,4 @@
-THis is a bootdev learning project.
+## Bootdev Learn HTTPS assigment.
 
-Run server: npm run dev
-URL: http://localhost:8080
+Run server: `npm run dev`
+URL for local server: http://localhost:8080
